@@ -1,0 +1,44 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans&family=Roboto:wght@300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Anton&display=swap");
+
+body {
+  font-family: "Open Sans", sans-serif;
+  font-family: "Roboto", sans-serif;
+}
+
+.flexbox-container {
+  display: flex;
+  width: 100vw;
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+}
+
+.inner-container {
+  display: flex;
+  background-color: rgb(31, 35, 52);
+  width: fit-content;
+  height: fit-content;
+  box-shadow: 0px 0px 25px black;
+  color: white;
+}
+
+#name {
+  font-size: 45px;
+  border-bottom: 2px solid rgb(198, 216, 126);
+  font-family: "Anton", sans-serif;
+}
+
+#description {
+  font-size: 18px;
+}
+
+.my_image {
+  height: 435px;
+}
+
+.intro {
+  font-size: 25px;
+  padding: 20px;
+  width: 250px;
+}

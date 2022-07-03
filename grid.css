@@ -1,0 +1,43 @@
+@import url("https://fonts.googleapis.com/css2?family=Splash&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+img {
+  height: 250px;
+  width: 370px;
+}
+
+.grid-container {
+  display: grid;
+  column-gap: 20px;
+  width: 100vw;
+  height: 100vh;
+  grid-template-columns: 25vw 25vw 25vw 25vw;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+.country {
+  font-family: "Bebas Neue", cursive;
+  font-size: 45px;
+  color: rgb(255, 153, 70);
+  text-align: center;
+}
+
+.outer-grid {
+  padding: 10px;
+  display: grid;
+  row-gap: 20vh;
+  flex-direction: column;
+  grid-template-rows: 10cm auto;
+  justify-content: center;
+  width: 100vw;
+  height: 100vh;
+  background-image: url("https://images.pexels.com/photos/415708/pexels-photo-415708.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2");
+  background-size: cover;
+}

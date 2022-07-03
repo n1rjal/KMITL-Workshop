@@ -1,0 +1,29 @@
+/*
+Author: Your name
+Org: Your origanization
+*/
+
+/*
+
+for class -> .class_name{ styles to apply }
+for id -> #id_name{ styles to apply }
+
+*/
+/* FOR ID based element */
+#points-of-html {
+  background-color: hsl(206, 68%, 74%);
+}
+
+/*
+background-color means color of your background
+color means color of your text content
+*/
+/* For class based element */
+.assignment {
+  width: 100vw;
+  color: #00ccff;
+  font-size: 20px;
+  background-image: url("./media/water.jpeg");
+  background-size: cover;
+  width: 50%; /* the styling that lives in the below will be applied */
+}
