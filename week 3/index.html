@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Project of IOT</title>
+    <link rel="stylesheet" href="./static//css/index.css" />
+  </head>
+  <body>
+    <nav>
+      <div class="image_container"><img id="icon_for_weather" /></div>
+      <div>
+        <h1 class="place_name">Loading Place</h1>
+        <span id="condition">Loading... </span>
+      </div>
+    </nav>
+
+    <div class="container">
+      <div class="water_reading">
+        <div>
+          <div class="value">336 mm</div>
+          <div id="weatherInfo"></div>
+        </div>
+      </div>
+      <div class="warning">
+        <input type="text" placeholder="Enter Your city" id="city_input" />
+        <button id="city_search_confirm">🔍</button>
+      </div>
+    </div>
+    <script src="./static/js/index.js" type="text/javascript"></script>
+  </body>
+</html>

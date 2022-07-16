@@ -1,0 +1,107 @@
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  background-color: rgb(235, 235, 235);
+  color: rgb(34, 34, 34);
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  text-transform: capitalize;
+}
+
+nav {
+  position: absolute;
+  display: flex;
+  align-items: center;
+  height: 50px;
+  color: rgb(226, 226, 226);
+  background-color: rgb(23, 23, 51);
+  width: 100vw;
+}
+
+.place_name {
+  font-size: 20px;
+}
+
+.water_reading,
+.warning {
+  height: 400px;
+  width: 300px;
+}
+
+.value {
+  color: rgb(198, 137, 25);
+}
+
+.water_reading {
+  background-color: rgb(33, 38, 45, 0.7);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-transform: uppercase;
+  font-size: 40px;
+  color: azure;
+  font-family: "Bebas Neue", cursive;
+  transition: 600ms ease-in-out;
+}
+
+#weatherInfo {
+  font-family: "Roboto", sans-serif !important;
+  font-size: 20px;
+  text-transform: capitalize;
+}
+
+.warning {
+  padding: 20px;
+  background-color: rgb(33, 38, 45, 0.7);
+  color: whitesmoke;
+  display: flex;
+  text-transform: lowercase;
+  justify-content: center;
+  align-items: center;
+}
+
+.water_reading:hover,
+.warning:hover {
+  background-color: rgb(33, 38, 45, 1);
+  transition: 600ms ease-in-out;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  width: 100vw;
+  margin: auto;
+  background-image: url("https://images.pexels.com/photos/189349/pexels-photo-189349.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2");
+  background-size: cover;
+}
+
+#city_input,
+#city_search_confirm {
+  height: 1.1cm;
+  width: 6cm;
+  text-indent: 0.5cm;
+  border: 0;
+  background-color: white;
+  outline: none;
+}
+
+#city_search_confirm {
+  width: 1.1cm;
+  text-indent: 0;
+}
