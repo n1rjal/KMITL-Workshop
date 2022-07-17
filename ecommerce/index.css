@@ -1,0 +1,68 @@
+@import url("https://fonts.googleapis.com/css2?family=Ibarra+Real+Nova:wght@500&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Source+Sans+Pro&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Source Sans Pro", sans-serif;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  background-color: #f64e21;
+  color: white;
+  align-items: center;
+  position: fixed;
+  width: 100vw;
+}
+
+nav > div {
+  margin: 10px 20px;
+}
+
+.social_links {
+  font-size: 18px;
+  margin: 0 10px;
+}
+
+body {
+  background-color: #eeeeee;
+  font-family: "Ibarra Real Nova", serif;
+}
+
+.item-container {
+  background-color: #fff;
+  height: 500px;
+  margin: 10px;
+  padding: 10px;
+  padding-top: 0;
+  max-width: 325px;
+  margin-top: 2cm;
+}
+
+.item_image {
+  height: 350px;
+  width: 100%;
+  z-index: -1;
+}
+
+.item_title {
+  font-size: 18px;
+}
+
+.container {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  justify-content: center;
+  align-items: center;
+}
